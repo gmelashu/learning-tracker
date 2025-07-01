@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 import matplotlib.pyplot as plt
 from jinja2 import Template
-from weasyprint import HTML
+#from weasyprint import HTML
 
 # --- CONFIG ---
 SHEET_ID = "1VBGZR3BYCXRrKJrgN8LntrqPHmwEdQ-ThQmTn1vIKJI"
