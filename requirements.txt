@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 streamlit
 pandas
 scikit-learn
 matplotlib
 seaborn
-=======
-streamlit
-pandas
-scikit-learn
-matplotlib
-seaborn
->>>>>>> d8d44a9097aeae1e3f9bca54f0c51feacd6b7c96
+gspread==5.12.0
+oauth2client==4.1.3
+jinja2
