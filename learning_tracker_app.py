@@ -241,18 +241,18 @@ with tab2:
             st.metric("⏱️ Longest Session", f"{int(longest_session) if pd.notna(longest_session) else 0} min")
         with top_row[5]:
             st.metric("📅 Active Days", active_days)
-        if st.button("📄 Generate Report"):
-            chart_path = "activity_chart.png"
-            coach_note = ""
-            pdf_path = generate_weekly_report(df_kid, selected_name, age, chart_path, coach_note)
+        #if st.button("📄 Generate Report"):
+         #   chart_path = "activity_chart.png"
+          #  coach_note = ""
+           # pdf_path = generate_weekly_report(df_kid, selected_name, age, chart_path, coach_note)
 
-            with open(pdf_path, "rb") as f:
-                st.download_button(
-                    "📥 Download Weekly Report",
-                    f,
-                    file_name=f"{selected_name}_JimmyAcademy_Report.pdf",
-                    mime="application/pdf"
-                )
+            #with open(pdf_path, "rb") as f:
+             #   st.download_button(
+              #      "📥 Download Weekly Report",
+               #     f,
+                #    file_name=f"{selected_name}_JimmyAcademy_Report.pdf",
+                 #   mime="application/pdf"
+                #)
 
         # Weekly Highlights section
         st.markdown("### 🏁 Weekly Highlights")
