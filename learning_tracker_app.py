@@ -1,20 +1,17 @@
-<<<<<<< HEAD
 import streamlit as st
 import pandas as pd
 import gspread
 from gspread_dataframe import get_as_dataframe, set_with_dataframe
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime, timedelta
-=======
+
 
 import streamlit as st
 import pandas as pd
->>>>>>> d8d44a9097aeae1e3f9bca54f0c51feacd6b7c96
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
 from jinja2 import Template
 from weasyprint import HTML
 
@@ -459,7 +456,7 @@ with tab3:
         backfill_points()
 
     
-=======
+
 from datetime import datetime
 import os
 import csv
@@ -656,4 +653,4 @@ if not df_kid.empty:
             st.info(f"Cleaned {len(df_raw) - len(cleaned_df)} rows (blank names or bad timestamps removed).")
         else:
             st.warning("No CSV found yet. Add an entry first to begin tracking.")
->>>>>>> d8d44a9097aeae1e3f9bca54f0c51feacd6b7c96
+
